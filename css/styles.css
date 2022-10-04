@@ -1,28 +1,40 @@
 /************ TAG SELECTORS ************/
-
+/*** #FEF5ED; ***/
 body {
-	background-color: #FEF5ED;
+	background-color: white; 
 	margin: 0;
 	text-align: center;
-
+	font-family: 'Merriweather', serif;
 }
 
 hr {
 	margin-top: 0;
+	margin:  auto;
 	border-style: none;
 	height: 0px;
 	width: 10%;
 	border-top-style: dotted;
 	border-color: lightgrey;
 	border-width: 4px;
+	align-items: center;
 }
 
 h1 {
 	color: #D3E4CD;
+	font-family: 'Quintessential', cursive;
+	font-size: 5rem;
+	margin: 50px auto;
+}
+
+h2 {
+	color: #ADC2A9;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5rem;
 }
 
 h3 {
 	color: #ADC2A9;
+	font-family: 'Montserrat', sans-serif;
 }
 
 img:hover {
@@ -37,15 +49,34 @@ img:hover {
 }
 
 .top-container {
-	background-image: url("../images/top_container.jpeg");
+	/*background-image: url("../images/top_container.jpeg");*/
+	display: inline-block;
+	position:  relative;
+	width: 100%;
 }
-
+.top-container img + .top-container-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    max-width: 100%;
+  	height: auto;
+}
+/*** background-color: #D3E4CD; ***/
 .middle-container {
-	background-color: #D3E4CD;
+	background-color: white;
+}
+/*** background-color: #FEF5ED; ***/
+.bottom-container {
+	background-color: white;
 }
 
-.bottom-container {
-	background-color: #FEF5ED;
+.skills {
+	background-color: white;
+}
+
+.contact-me {
+	background-color: white;
 }
 
 /************ ID SELECTORS *************/
