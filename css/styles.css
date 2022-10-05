@@ -54,14 +54,6 @@ img:hover {
 	position:  relative;
 	width: 100%;
 }
-.top-container img + .top-container-content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    max-width: 100%;
-  	height: auto;
-}
 /*** background-color: #D3E4CD; ***/
 .middle-container {
 	background-color: white;
@@ -79,6 +71,10 @@ img:hover {
 	background-color: white;
 }
 
+.nav-link {
+	font-family: 'Montserrat', sans-serif;
+}
+
 /************ ID SELECTORS *************/
 
 /*
@@ -86,3 +82,58 @@ img:hover {
 	background-color: #99A799;
 } 
 */
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #FEF5ED;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 0rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #FEF5ED;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
