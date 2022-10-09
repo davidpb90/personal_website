@@ -110,6 +110,7 @@ img:hover {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
+  padding: 0 18px;
 }
 
 .nav-item {
@@ -120,6 +121,8 @@ img:hover {
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
 }
+
+
 
 /* Buttons */
 
