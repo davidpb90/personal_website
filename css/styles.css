@@ -184,6 +184,11 @@ body {
   flex-flow: column wrap;
 }
 
+.right-navbar {
+	display: flex;
+	flex-flow: column wrap;
+}
+
 /* We tell all items to be 100% width, via flex-basis */
 /*.wrapper > * {
   flex: 1 100%;
@@ -214,12 +219,12 @@ body {
   /* We invert order of first sidebar and main
    * And tell the main element to take twice as much width as the other two sidebars 
    */
-  .container { flex: 4 0px; }
-  .main { flex: 2 0px; }
-  .right-navbar { flex: 1 0px; }
-  .title { flex: 1 0px; }
-  .subtitle { flex: 1 0px; }
-  .footer  { order: 4; }
+  .container { flex: 4 0px; order: 1; }
+  .main { flex: 2 0px; order: 2; }
+  .right-navbar { flex: 1 0px; order: 1; }
+  .title { flex: 1 0px; order: 1; }
+  .subtitle { flex: 1 0px; order: 2; }
+  .footer  { flex: 1 0px; order: 2; }
 }
 
 
