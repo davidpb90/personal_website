@@ -220,8 +220,8 @@ body {
    * And tell the main element to take twice as much width as the other two sidebars 
    */
   .container { flex: 4 0px; order: 1; }
-  .main { flex: 2 0px; order: 2; }
-  .right-navbar { flex: 1 0px; order: 1; }
+  .main { flex: 2 0px; order: 1; }
+  .right-navbar { flex: 1 0px; order: 2; }
   .title { flex: 1 0px; order: 1; }
   .subtitle { flex: 1 0px; order: 2; }
   .footer  { flex: 1 0px; order: 2; }
