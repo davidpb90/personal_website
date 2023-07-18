@@ -216,9 +216,10 @@ body {
 /* Small screens */
 @media all and (max-width: 600px) {
   /* We tell both sidebars to share a row */
-  .container { flex: 3 auto; order: 1; }
+  .container { flex: 3 auto; order: 1; flex-flow: column wrap; }
   .footer  { order: 2; }
   .right-navbar { flex: 1 0px; order: 1; flex-flow: row wrap; }
+  .nav { flex-flow: row wrap; }
   .main { flex: 2 0px; order: 2; }
   .title { flex: 1 0px; order: 1; }
   .subtitle { flex: 1 0px; order: 2; }
@@ -227,9 +228,10 @@ body {
 /* Medium screens */
 @media all and (min-width: 600px) {
   /* We tell both sidebars to share a row */
-  .container { flex: 3 auto; order: 1; }
+  .container { flex: 3 auto; order: 1; flex-flow: column wrap; }
   .footer  { order: 2; }
   .right-navbar { flex: 1 0px; order: 1; flex-flow: row wrap; }
+  .nav { flex-flow: row wrap; }
   .main { flex: 2 0px; order: 2; }
   .title { flex: 1 0px; order: 1; }
   .subtitle { flex: 1 0px; order: 2; }
@@ -240,7 +242,7 @@ body {
   /* We invert order of first sidebar and main
    * And tell the main element to take twice as much width as the other two sidebars 
    */
-  .container { flex: 6 0px; order: 1; flex-flow: column wrap;}
+  .container { flex: 6 0px; order: 1; flex-flow: row wrap;}
   .main { flex: 6 0px; order: 1; }
   .right-navbar { flex: 1 0px; order: 2; }
   .title { flex: 1 0px; order: 1; }
