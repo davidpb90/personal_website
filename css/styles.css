@@ -200,7 +200,6 @@ body {
 
 .navbar {
 	display: flex;
-	flex-flow: column wrap;
 	align-items: flex-end;
 }
 
@@ -251,6 +250,7 @@ body {
   .container { flex: 6 0px; order: 1; flex-flow: row wrap;}
   .main { flex: 6 0px; order: 1; }
   .right-navbar { flex: 1 0px; order: 2; }
+  .navbar { flex-flow: column wrap; }
   .title { flex: 1 0px; order: 1; }
   .subtitle { flex: 1 0px; order: 2; }
   .footer  { flex: 1 0px; order: 2; }
