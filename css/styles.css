@@ -182,7 +182,14 @@ body {
 .main {
   display: flex;
   flex-flow: column wrap;
-  align-items: flex-start;
+}
+
+.title {
+	align-items: flex-start;
+}
+
+.subtitle {
+	align-items: center;
 }
 
 .right-navbar {
@@ -205,12 +212,24 @@ body {
  * 5. footer
  */
 
+
+/* Small screens */
+@media all and (max-width: 600px) {
+  /* We tell both sidebars to share a row */
+  .container { flex: 3 auto; order: 1; }
+  .footer  { order: 2; }
+  .right-navbar { flex: 1 0px; order: 1; flex-flow: row wrap; }
+  .main { flex: 2 0px; order: 2; }
+  .title { flex: 1 0px; order: 1; }
+  .subtitle { flex: 1 0px; order: 2; }
+}
+
 /* Medium screens */
 @media all and (min-width: 600px) {
   /* We tell both sidebars to share a row */
   .container { flex: 3 auto; order: 1; }
   .footer  { order: 2; }
-  .right-navbar { flex: 1 0px; order: 1; }
+  .right-navbar { flex: 1 0px; order: 1; flex-flow: row wrap; }
   .main { flex: 2 0px; order: 2; }
   .title { flex: 1 0px; order: 1; }
   .subtitle { flex: 1 0px; order: 2; }
@@ -221,7 +240,7 @@ body {
   /* We invert order of first sidebar and main
    * And tell the main element to take twice as much width as the other two sidebars 
    */
-  .container { flex: 6 0px; order: 1; }
+  .container { flex: 6 0px; order: 1; flex-flow: column wrap;}
   .main { flex: 6 0px; order: 1; }
   .right-navbar { flex: 1 0px; order: 2; }
   .title { flex: 1 0px; order: 1; }
@@ -233,6 +252,10 @@ body {
 /*
  * Header
  */
+
+.nav ul {
+	list-style: none ;
+}
 
 .nav-masthead .nav-link {
   color: rgba(255, 255, 255, .5);
