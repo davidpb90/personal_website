@@ -203,6 +203,11 @@ body {
 	align-items: flex-end;
 }
 
+.navbar ul {
+	display: flex;
+	align-items: flex-end;
+}
+
 /* We tell all items to be 100% width, via flex-basis */
 /*.wrapper > * {
   flex: 1 100%;
