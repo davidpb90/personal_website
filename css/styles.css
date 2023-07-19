@@ -225,6 +225,7 @@ body {
   .footer  { order: 2; }
   .right-navbar { flex: 1 0px; order: 1; flex-flow: row wrap; }
   .navbar { flex-flow: row wrap; }
+  .navbar ul { flex-flow: row wrap; }
   .main { flex: 2 0px; order: 2; }
   .title { flex: 1 0px; order: 1; }
   .subtitle { flex: 1 0px; order: 2; }
@@ -237,6 +238,7 @@ body {
   .footer  { order: 2; }
   .right-navbar { flex: 1 0px; order: 1; flex-flow: row wrap; }
   .navbar { flex-flow: row wrap; }
+  .navbar ul { flex-flow: row wrap; }
   .main { flex: 2 0px; order: 2; }
   .title { flex: 1 0px; order: 1; }
   .subtitle { flex: 1 0px; order: 2; }
@@ -251,6 +253,7 @@ body {
   .main { flex: 6 0px; order: 1; }
   .right-navbar { flex: 1 0px; order: 2; }
   .navbar { flex-flow: column wrap; }
+  .navbar ul { flex-flow: column wrap; }
   .title { flex: 1 0px; order: 1; }
   .subtitle { flex: 1 0px; order: 2; }
   .footer  { flex: 1 0px; order: 2; }
