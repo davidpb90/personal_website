@@ -206,6 +206,7 @@ body {
 .navbar ul {
 	display: flex;
 	align-items: flex-end;
+	list-style: none ;
 }
 
 /* We tell all items to be 100% width, via flex-basis */
@@ -269,9 +270,6 @@ body {
  * Header
  */
 
-.navbar ul {
-	list-style: none ;
-}
 
 .nav-masthead .nav-link {
   color: rgba(255, 255, 255, .5);
