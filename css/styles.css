@@ -212,7 +212,7 @@ body {
 }
 
 .footer {
-	height: 10px;
+	height: 50px;
 }
 
 /* We tell all items to be 100% width, via flex-basis */
@@ -263,7 +263,7 @@ body {
    */
   .container { flex: 1 0px; order: 1; flex-flow: row wrap; }
   .main { flex: 1 0 0px; order: 1; }
-  .right-navbar { flex: 0 0; order: 2; width: 10px; }
+  .right-navbar { flex: 0 0; order: 2; width: 50px; }
   .navbar { flex-flow: column wrap; }
   .navbar ul { flex-flow: column wrap; }
   .title { flex: 1 0px; order: 1; }
