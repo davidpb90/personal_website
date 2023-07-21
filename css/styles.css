@@ -257,12 +257,12 @@ body {
    */
   .container { flex: 1 0px; order: 1; flex-flow: row wrap;}
   .main { flex: 1 0 0px; order: 1; }
-  .right-navbar { flex: 1 100px; order: 2; }
+  .right-navbar { flex: 1 10px; order: 2; }
   .navbar { flex-flow: column wrap; }
   .navbar ul { flex-flow: column wrap; }
   .title { flex: 1 0px; order: 1; }
   .subtitle { flex: 1 0px; order: 2; }
-  .footer  { flex: 1 50px; order: 2; }
+  .footer  { flex: 1 10px; order: 2; }
 }
 
 
