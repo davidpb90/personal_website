@@ -255,14 +255,14 @@ body {
   /* We invert order of first sidebar and main
    * And tell the main element to take twice as much width as the other two sidebars 
    */
-  .container { flex: 6 0px; order: 1; flex-flow: row wrap;}
+  .container { flex: 1 0px; order: 1; flex-flow: row wrap;}
   .main { flex: 1 0 0px; order: 1; }
-  .right-navbar { flex: 0 0 100px; order: 2; }
-  .navbar { flex: 0 0 100px; flex-flow: column wrap; }
-  .navbar ul { flex: 0 0 100px; flex-flow: column wrap; }
+  .right-navbar { flex: 1 100px; order: 2; }
+  .navbar { flex-flow: column wrap; }
+  .navbar ul { flex-flow: column wrap; }
   .title { flex: 1 0px; order: 1; }
   .subtitle { flex: 1 0px; order: 2; }
-  .footer  { flex: 1 0px; order: 2; }
+  .footer  { flex: 1 50px; order: 2; }
 }
 
 
