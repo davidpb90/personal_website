@@ -177,11 +177,13 @@ body {
 .container {
   display: flex;
   flex-flow: row wrap;
+  align-items: flex-start;
 }
 
 .main {
   display: flex;
   flex-flow: column wrap;
+  align-items: flex-start;
 }
 
 .title {
@@ -207,6 +209,10 @@ body {
 	display: flex;
 	align-items: flex-end;
 	list-style: none ;
+}
+
+.footer {
+	height: 10px;
 }
 
 /* We tell all items to be 100% width, via flex-basis */
@@ -255,14 +261,14 @@ body {
   /* We invert order of first sidebar and main
    * And tell the main element to take twice as much width as the other two sidebars 
    */
-  .container { flex: 1 0px; order: 1; flex-flow: row wrap;}
+  .container { flex: 1 0px; order: 1; flex-flow: row wrap; }
   .main { flex: 1 0 0px; order: 1; }
-  .right-navbar { flex: 1 10px; order: 2; }
+  .right-navbar { flex: 0 0; order: 2; width: 10px; }
   .navbar { flex-flow: column wrap; }
   .navbar ul { flex-flow: column wrap; }
   .title { flex: 1 0px; order: 1; }
   .subtitle { flex: 1 0px; order: 2; }
-  .footer  { flex: 1 10px; order: 2; }
+  .footer  { flex: 0 0; order: 2; }
 }
 
 
