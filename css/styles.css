@@ -335,7 +335,7 @@ body {
   .brand { 
   	flex: 1 0px; 
   	order: 1; 
-  	align-content: flex-start; 
+  	align-self: flex-end; 
   }
   .navbar { 
   	flex: 10 0px; 
