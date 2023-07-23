@@ -254,7 +254,7 @@ body {
   	justify-content: space-between; 
   }
   .brand { 
-  	flex: 1 0px; 
+  	flex: 90%; 
   	order: 1; 
   	align-content: flex-start; 
   	align-self: flex-start; 
@@ -263,6 +263,7 @@ body {
 /*  	flex: 10 0px; */
   	order: 3; 
   	flex-flow: column wrap; 
+  	align-content: flex-end;
   	display:none;
   }
   .navbar ul { 
@@ -272,9 +273,10 @@ body {
         display: flex;
         order: 3; 
         flex-flow: column wrap; 
+        align-content: flex-end;
   }
   .navbar-toggle {
-    	flex: 10 0px;
+    	flex: 10%;
   /*    align-self: flex-end;*/
       display: initial;
   /*    position: absolute;*/
