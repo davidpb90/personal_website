@@ -264,6 +264,7 @@ body {
     display: initial;
     position: absolute;
     cursor: pointer;
+    order: 3;
   }
   .navbar-toggleShow {
       display: flex;
@@ -286,7 +287,7 @@ body {
 }
 
 /* Medium screens */
-@media all and (min-width: 600px) {
+@media all and (max-width: 800px) {
   /* We tell both sidebars to share a row */
   .container { 
   	flex: 10 auto; 
@@ -312,20 +313,21 @@ body {
   	align-content: flex-start; 
   	align-self: flex-start; 
   }
-  .navbar { 
-  	flex: 10 0px; 
-  	order: 2; 
-  	flex-flow: column wrap; 
-  	display:none;
-  }
-  .navbar-toggleShow {
-      display: flex;
-  }
   .navbar-toggle {
     align-self: flex-end;
     display: initial;
     position: absolute;
     cursor: pointer;
+    order: 3;
+  }
+  .navbar-toggleShow {
+      display: flex;
+  }
+  .navbar { 
+  	flex: 10 0px; 
+  	order: 2; 
+  	flex-flow: column wrap; 
+  	display:none;
   }
   .navbar ul { 
   	flex-flow: column wrap; 
