@@ -292,7 +292,7 @@ body {
 }
 
 /* Medium screens */
-@media all and (max-width: 800px) {
+@media all and (min-width:600px) and (max-width: 800px) {
   /* We tell both sidebars to share a row */
   .container { 
   	flex: 10 auto; 
