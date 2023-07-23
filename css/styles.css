@@ -312,20 +312,20 @@ body {
   	align-content: flex-start; 
   	align-self: flex-start; 
   }
-  .navbar-toggle {
-    align-self: flex-end;
-    display: initial;
-    position: absolute;
-    cursor: pointer;
-  }
-  .navbar-toggleShow {
-      display: flex;
-  }
   .navbar { 
   	flex: 10 0px; 
   	order: 2; 
   	flex-flow: column wrap; 
   	display:none;
+  }
+  .navbar-toggleShow {
+      display: flex;
+  }
+  .navbar-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
   }
   .navbar ul { 
   	flex-flow: column wrap; 
@@ -363,16 +363,17 @@ body {
   	order: 1; 
   	align-self: flex-end; 
   }
-  .navbar-toggle {
-    display: none;
-  }
-  .navbar { 
+	.navbar { 
   	flex: 10 0px; 
   	order: 2; 
   	flex-flow: column wrap; 
   }
   .navbar ul { 
   	flex-flow: column wrap; 
+  }
+  .navbar-toggle {
+    display: none;
+    order: 3;
   }
   .main { 
   	flex: 10 0px; 
