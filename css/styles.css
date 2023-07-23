@@ -254,7 +254,7 @@ body {
   	justify-content: space-between; 
   }
   .brand { 
-  	flex: 0 0 90%; 
+  	flex: 0 0 80%; 
   	order: 1; 
   	align-content: flex-start; 
   	align-self: flex-start; 
