@@ -325,10 +325,10 @@ body {
   	flex: 10 0px; 
   	order: 2; 
   	flex-flow: column wrap; 
+  	display:none;
   }
   .navbar ul { 
   	flex-flow: column wrap; 
-  	display:none;
   }
   .main { 
   	flex: 10 0px; 
