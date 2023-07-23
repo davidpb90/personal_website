@@ -269,7 +269,9 @@ body {
   	flex-flow: column wrap; 
   }
   .navbar-toggleShow {
-      display: flex;
+        display: flex;
+        order: 3; 
+        flex-flow: column wrap; 
   }
   .navbar-toggle {
     	flex: 10 0px;
@@ -325,6 +327,8 @@ body {
   }
   .navbar-toggleShow {
       display: flex;
+      order: 3; 
+      flex-flow: column wrap; 
   }
   .navbar-toggle {
     	flex: 10 0px;
