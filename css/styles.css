@@ -173,6 +173,7 @@ body {
   display: flex;
   flex-flow: column wrap;
   align-items: stretch; 
+  justify-content: space-between; 
 }
 
 .container {
@@ -237,14 +238,14 @@ body {
 @media all and (max-width: 600px) {
   /* We tell both sidebars to share a row */
   .container { 
-  	flex: 10 0px; 
+  	flex: 0 0 85%; 
   	order: 1; 
   	flex-flow: column wrap; 
   	justify-content: space-between; 
   	align-items: stretch; 
   }
   .footer  { 
-  	flex: 1 0px; 
+  	flex: 0 0 10%; 
   	order: 2; 
   }
   .right-navbar { 
@@ -297,14 +298,14 @@ body {
 @media all and (min-width:600px) and (max-width: 800px) {
   /* We tell both sidebars to share a row */
   .container { 
-    flex: 10 0px; 
+    flex: 0 0 85%; 
     order: 1; 
     flex-flow: column wrap; 
     justify-content: space-between; 
     align-items: stretch; 
   }
   .footer  { 
-    flex: 1 0px; 
+    flex: 0 0 10%; 
     order: 2; 
   }
   .right-navbar { 
