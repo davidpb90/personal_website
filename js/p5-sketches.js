@@ -5,7 +5,8 @@ function setup() {
 function draw() {
   clear();
   // background(255);
-  fill(0);
+  let c = color(255, 204, 0);
+  fill(c);
   ellipse(mouseX, mouseY, 100, 100);
   if (mouseIsPressed) {
     var radius = 100;
