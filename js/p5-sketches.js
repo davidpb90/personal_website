@@ -14,6 +14,7 @@ function draw() {
     for (var i = 0; i < radius; i++) {
       fill(alpha);
       ellipse(mouseX, mouseY, i, i);
+      radius -= 5;
       alpha -= 5;
     }
   }
