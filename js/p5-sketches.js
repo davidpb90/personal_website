@@ -2,6 +2,24 @@ function setup() {
   createCanvas(400, 400);
 }
 
+// function draw() {
+//   clear();
+//   // background(255);
+//   let c = color(255, 204, 0);
+//   fill(c);
+//   ellipse(mouseX, mouseY, 100, 100);
+//   if (mouseIsPressed) {
+//     var radius = 100;
+//     var alpha = 255;
+//     for (var i = 0; i < radius; i++) {
+//       fill(alpha);
+//       ellipse(mouseX, mouseY, i, i);
+//       radius -= 5;
+//       alpha -= 5;
+//     }
+//   }
+// }
+
 let circleRadius = 50;
 let maxRadius = 300;
 let isDiffusing = false;
@@ -28,7 +46,7 @@ function draw() {
   }
   let x = width / 2;
   let y = height / 2;
-  ellipse(x, y, circleRadius * 2);
+  ellipse(mouseX, mouseY, circleRadius * 2);
 }
 function mousePressed() {
   isDiffusing = true;
