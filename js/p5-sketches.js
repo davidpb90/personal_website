@@ -24,7 +24,7 @@ let circleRadius = 50;
 let maxRadius = 300;
 let isDiffusing = false;
 function setup() {
-  createCanvas(600, 1200);
+  createCanvas(400, 400);
   // fill(255, 100);
   noStroke();
 }
