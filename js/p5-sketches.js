@@ -1,6 +1,6 @@
-function setup() {
-  createCanvas(600, 1200);
-}
+// function setup() {
+//   createCanvas(600, 1200);
+// }
 
 // function draw() {
 //   clear();
@@ -24,7 +24,7 @@ let circleRadius = 50;
 let maxRadius = 300;
 let isDiffusing = false;
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(600, 1200);
   // fill(255, 100);
   noStroke();
 }
