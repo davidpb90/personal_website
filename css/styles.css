@@ -169,6 +169,10 @@ table {
   border-spacing: 5px;
 }
 
+tr, td {
+  padding: 15px;
+}
+
 /*.cover-container {
   max-width: 42em;
 }*/
