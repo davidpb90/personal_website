@@ -184,7 +184,7 @@ tr, td {
   justify-content: space-between; 
 }
 
-.container {
+.main-container {
   display: flex;
   flex-flow: row wrap;
   align-items: flex-start;
