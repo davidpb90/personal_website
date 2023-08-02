@@ -245,7 +245,7 @@ tr, td {
 /* Small screens */
 @media all and (max-width: 600px) {
   /* We tell both sidebars to share a row */
-  .container { 
+  .main-container { 
   	flex: 0 0 70%; 
   	order: 1; 
   	flex-flow: column wrap; 
@@ -305,7 +305,7 @@ tr, td {
 /* Medium screens */
 @media all and (min-width:600px) and (max-width: 800px) {
   /* We tell both sidebars to share a row */
-  .container { 
+  .main-container { 
     flex: 0 0 70%; 
     order: 1; 
     flex-flow: column wrap; 
@@ -367,7 +367,7 @@ tr, td {
   /* We invert order of first sidebar and main
    * And tell the main element to take twice as much width as the other two sidebars 
    */
-  .container { 
+  .main-container { 
   	flex: 10 0px; 
   	order: 1; 
   	flex-flow: row wrap; 
